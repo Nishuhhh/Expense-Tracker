@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./home.css">
+     
+</head>
+<body>
+    <header id="main-header"  class="text-white p-4 mb-3">
+        <button id="btn">☰</button>
+
+    <nav id="nav">
+        <ul id="parent">
+            <li><a href="./home.html">Home</a></li>
+            <li id="prem"><button id="premium">Buy Premium</button></li>
+            <div id="premium-feature"> 
+              
+            </div>
+            <li><button id="logout">Logout</button></li>
+        </ul>
+    </nav>
+        <div class="container">
+            <div class="row">
+                <h1 id="header-title">Expense Tracker</h1>
+            </div>
+        <div class="col-md-6 align-self-center">
+            <input type="text" class="form-control" id="filter" placeholder="search Items">
+        </div>
+        </div>
+        
+    </header>
+    <div class="container">
+        <div id="main" class="card card-body">
+            <h2 class ="title">Add Expense</h2>
+            <form id="addForm" class="form-inline mb-3">
+                <input type="text" id="amount" placeholder="Amount">
+                <input type="text" id="description" placeholder="Description">
+                <select id="category" name="Select Category">
+                    <option value="Food">Food</option>
+                    <option value="Petrol">Petrol</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Others">Others</option>
+
+
+
+                </select>
+                <button type="submit" class="submit-btn">Add Expenses</button>
+                
+            </form>
+            <h2 class="title">Expenses</h2>
+            <ul id="items" class="list-group">
+
+            </ul>
+        </div>
+    </div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" ></script>
+
+    <script src="./home.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+#main-header
+{
+    background-color: blueviolet;
+}
+
+.submit-btn
+{
+    width:60% ;
+    height: 40px;
+    margin:10px auto ;
+    justify-content: center;
+    display: block;
+    color:#fff;
+    background: #573b8a;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top : 40px;
+    border-radius: 5px;
+    cursor : pointer;
+    
+
+}
+h1{
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    color: chartreuse;
+    font-size: 35px;
+}
+
+input
+{
+    width : 20% ;
+    height : 40px ;
+    background: wheat;
+    margin : 10px auto ;
+    padding:10px;
+    outline :none ;
+    border-radius: 5px;
+}
+#category
+{
+    width : 23% ;
+    height : 63px ;
+    background: wheat;
+    margin : 10px auto ;
+    padding:10px;
+    outline :none ;
+    border-radius: 5px;
+}
+#btn {
+    background-color: white;
+    border: none;
+    color: rebeccapurple;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#btn.active {
+    transform: translateX(-130px);
+}
+
+nav {
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.active {
+    transform: translateX(0);
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+nav button{
+	border: none;
+	background-color: rebeccapurple;
+	color: white;
+	padding: 0;
+	cursor: pointer;
+}

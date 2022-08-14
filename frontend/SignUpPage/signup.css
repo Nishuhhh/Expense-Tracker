@@ -1,0 +1,84 @@
+body
+{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    background:linear-gradient(to bottom,#0f0c29 ,#302b63 ,#24243e)
+
+}
+.main-container
+{
+    width:400px;
+    height: 500px;
+    overflow :hidden;
+    background-color: rgb(39,25,91);
+    border-radius: 100px;
+    
+    box-shadow: 5px 20px 50px #000;
+}
+label
+{
+  color:#fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+input
+{
+    width:70%;
+    height : 5px; 
+    background: white;
+    justify-content: center;
+    display: fles;
+    margin: 5px auto;
+    padding : 10px;
+    border:none ;
+    outline :none;
+    border-radius: 5px;
+    display: block;
+}
+
+button
+{
+   width : 60%;
+   height: 40px ;
+   margin : 10px auto ;
+   justify-content: center;
+   display: block;
+   color:#fff;
+   background:#573b8a;
+   font-size: 1rem ;
+   font-weight: bold;
+   outline: none;
+   border :none ;
+   border-radius: 12px;
+   transition: 2s ease-in;
+   cursor: pointer;
+}
+
+button:hover
+{
+    background-color: aqua;
+}
+a
+{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color : greenyellow
+}
+
+p
+{
+    justify-content: center;
+    display: flex;
+    margin: 10px aut0;
+    color :white;
+}
